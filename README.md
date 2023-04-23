@@ -4,7 +4,9 @@ This is a python prototype for my NetHack inspired, text-based console game; 'Te
 
 ## Contents
 Introduction
+
 Instructions
+
 Extra Information
 
 
