@@ -2,10 +2,14 @@
 This file contains the 'TextNet GameBoard' class, which is the class used to
 create the playable in-game maps for the game."""
 
+# Imports
+from GameObject import GameObject
+
 
 class GameBoard:
 	SYMBOL_KEY: dict = {
 		".": "Empty Space",
+		"#": "Game Object",
 		"*": "Player",
 		"!": "Enemy",
 		"|": "Vertical Wall",
@@ -37,8 +41,12 @@ class GameBoard:
 		for row in self.data_table:
 			temp_string: str = ""
 			for column in row:
-				if type(column) is None:
+				if type(column) == type(None):
 					column = "."
+				elif type(column) == type(GameObject("placeholder")):
+					column = "#"
+				else:
+					column = " "
 				temp_string += "[" + str(column) + "]"
 			return_string += temp_string + "\n"
 		return return_string

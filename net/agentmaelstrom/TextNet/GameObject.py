@@ -22,4 +22,3 @@ class GameObject:
 	def update(self):
 		"""This method is called once every frame."""
 		raise NotImplementedError("The update() method for this class has not been implemented yet.")
-	
