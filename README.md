@@ -3,14 +3,14 @@ This is a python prototype for my NetHack inspired, text-based console game; 'Te
 
 
 ## Contents
-Introduction
+[Introduction](#introduction)
 
-Instructions
+[Instructions](#instructions)
 
-Extra Information
+[Extra Information](#extra-information)
 
 
-<br>
+---
 
 
 ## Introduction
@@ -18,8 +18,8 @@ Blah blah blah
 
 
 ## Instructions
-blah blöah bla 
+Blah blah bla
 
 
 ## Extra Information
-blu bla blae blese
+Blu bla blue bless
